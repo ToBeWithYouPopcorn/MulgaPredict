@@ -1,1 +1,10 @@
-
+from .radish_preprocess import *
+from .apple_preprocess import *
+from .dried_pepper_preprocess import *
+from .garlic_preprocess import *
+from .green_lettuce_preprocess import *
+from .green_onion_preprocess import *
+from .lettuce_preprocess import *
+from .onion_preprocess import *
+from .pear_preprocess import *
+from .potato_preprocess import *
