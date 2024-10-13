@@ -299,6 +299,8 @@ def process_양파_for_train(raw_file, 산지공판장_file, 전국도매_file, 
     return 양파_train_data_copy, scaler, 양파_train_data_copy_raw
 
 
+#################################################################################################
+
 def process_양파_for_test(raw_file, 산지공판장_file, 전국도매_file, scaler = None):
     raw_data_양파 = pd.read_csv(raw_file)
     산지공판장_양파 = pd.read_csv(산지공판장_file)
